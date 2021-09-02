@@ -93,14 +93,14 @@ def run():
         ans = int("".join(lc))
         if ans == 0:
             st.error(
-                "Hi: " + fn + " || "
-                "Account number: "+account_no + ' || '
+                "Hi: " + fn + " , "
+                "Account number: "+account_no + ' . '
                 'Sorry, you are not eligible for the loan'
             )
         else:
             st.success(
-                "Hi: " + fn + " || "
-                "Account number: "+account_no + ' || '
+                "Hi: " + fn + " , "
+                "Account number: "+account_no + ' . '
                 'Congratulations!! you will get the loan'
             )
 
