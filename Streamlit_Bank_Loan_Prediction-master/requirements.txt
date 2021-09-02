@@ -4,4 +4,4 @@ pandas
 matplotlib
 streamlit==0.76.0
 Pillow
-seaborn
+seaborn==0.11.2
