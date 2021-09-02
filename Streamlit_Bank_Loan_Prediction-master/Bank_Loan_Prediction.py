@@ -74,7 +74,7 @@ def run():
     dur_options = range(len(dur_display))
     dur = st.selectbox("Loan Duration", dur_options, format_func=lambda x: dur_display[x])
 
-    if st.button("Submit"):
+    if st.button("Predict"):
         duration = 0
         if dur == 0:
             duration = 60
