@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-model = pickle.load(open('./Model/ML_Model.pkl', 'rb'))
+model = pickle.load(open('Streamlit_Bank_Loan_Prediction-master/Model/ML_Model.pkl', 'rb'))
 
 def run():
 
